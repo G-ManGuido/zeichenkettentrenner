@@ -1,0 +1,52 @@
+@import "_general.scss";
+@import "_variables.scss";
+@import "_mixin.scss";
+
+h1 {
+    font-family: 'kaffeesatz';
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 2%;
+    width: 60%;
+    margin: 0 auto;
+    background: #dedede;
+    border: 1px solid #ededed;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px #eee;
+    padding: 2%;
+}
+article{
+    width: 60%;
+    margin: 0 auto;
+    background: #dedede;
+    border: 1px solid #ededed;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px #eee;
+    padding: 2%;
+
+    table{
+        width: 95%;
+        margin: 0 auto;
+   
+
+   #langtext, #trenntext{
+       width: 100%;
+   }
+   #trennmethode{
+    cursor: pointer;
+   }
+   button{
+       padding: 1% 3%;
+       margin: 3% 0 5% 0;
+       border-radius: 8px;
+   }
+}
+   .output {
+        font-family: 'sone';
+        color: #fff;
+        font-size: 2.5rem;
+        -webkit-text-stroke: 1px #666;
+        font-weight: bolder;
+   }
+
+}
